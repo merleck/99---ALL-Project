@@ -234,7 +234,11 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
         private void RotateView()
         {
-            m_MouseLook.LookRotation (transform, m_Camera.transform);
+            if (Input.GetMouseButton(0))
+            {
+                Debug.Log("MouseLook Unlock");
+                m_MouseLook.LookRotation(transform, m_Camera.transform);
+            }
         }
 
 
