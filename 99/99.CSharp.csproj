@@ -216,6 +216,7 @@
     <Compile Include="Assets\Rocks and Boulders 2\Standard Assets\Image Effects (Pro Only)\SepiaToneEffect.cs" />
     <Compile Include="Assets\Rocks and Boulders 2\Standard Assets\Image Effects (Pro Only)\TwirlEffect.cs" />
     <Compile Include="Assets\Rocks and Boulders 2\Standard Assets\Image Effects (Pro Only)\VortexEffect.cs" />
+    <Compile Include="Assets\interactionTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\LeapMotion\DemoResources\ScrollerText.txt" />
